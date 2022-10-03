@@ -1,0 +1,30 @@
+<form [formGroup]="formInput"  >
+  <div>
+    <label for="firstNumber">
+      The First Number
+    </label>
+    <input id="firstNumber" type="number" formControlName="firstNumber">
+  </div>
+
+  <div>
+    <label for="secondNumber">
+      The Second Number
+    </label>
+    <input id="secondNumber" type="number" formControlName="secondNumber">
+  </div>
+  <label>Choose the math</label>
+
+  <button (click)="onAdd()">Add</button>
+  <button (click)="onSub()">Sub</button>
+  <button (click)="onMultiple()">Multiple</button>
+  <button (click)="onDevide()">Devide</button>
+
+
+
+
+
+
+
+
+
+
